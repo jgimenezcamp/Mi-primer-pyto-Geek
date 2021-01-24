@@ -1,0 +1,41 @@
+div.articulosprincipales {
+	display: flex;
+  flex: 1;
+  height: 300px;
+  width: 700px;
+  margin-left: 50px;
+  padding-top: 10px;
+  background-color: blue;
+  border-radius: 10px;
+ 
+}
+div.articulosprincipales h1 {
+	background-color: red;
+  margin-top: 5px;
+  margin-bottom: 180px;
+  font: bold 30px Georgia, sans-serif;
+}
+div.articulosprincipales~time {
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: -70px;
+  width: 80px;
+  padding: 15px 5px;
+
+  background-color: green;
+  box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.7);
+  border-radius: 5px;
+}
+
+
+.numerodia {
+  font: bold 36px Verdana, sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+}
+.nombredia {
+  font: 12px Verdana, sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+}

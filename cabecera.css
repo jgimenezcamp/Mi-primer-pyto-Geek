@@ -1,0 +1,53 @@
+/* Fichero de Javier Giménez Campos   */
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900');
+
+body{
+margin:0px;
+min-width:780px;
+}
+
+header>div{
+	
+	box-sizing:border-box;
+	background-image: url('logos/Geek_Academia.jpg');	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	margin: 0px;
+}
+header>div~h1{
+	
+	/*box-sizing:border-box;*/	
+	margin: 0px;
+ 	text-align:center;
+	font-family:'Orbitron', sans-serif;
+	height: 100px;
+	line-height: 100px;
+	/* background-color: #e3e1ec; */
+	background-color: white;
+		
+}
+
+header>img{
+	
+	float: left;
+	/* background-position: left;*/
+	/* background-size: 50px 100px;*/;
+	
+	height: 100px;
+}
+header>img+img{
+	float: right;
+	/*top: 0px;*/
+	
+	height: 100px;
+	/* background-position: right;*/
+	/*margin-right:5px;*/	
+}
+
+
+
+
+
+

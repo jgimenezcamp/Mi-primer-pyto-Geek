@@ -1,0 +1,25 @@
+/* Fichero de Javier Giménez Campos   */
+
+div.pte_izda {
+top: 0px;
+position: sticky;
+float: left;
+
+}
+
+div.pte_dcha {
+top: 0px;
+position: sticky;
+float: right;
+
+}
+
+div.pte_izda img{
+width: 50px;
+
+
+}
+
+div.pte_dcha img{
+width: 50px;
+}

@@ -1,0 +1,62 @@
+/* Creado por Javier Giménez Campos */
+
+
+div.columna {
+  float:left;
+  display: inline-block;
+  width: calc((100% - 180px)*(1/3));
+}
+
+div.columna:first-child, div.columna:last-child{
+  margin-right: 20px;
+  margin-left: 20px;
+
+}
+div.columna article{
+  display:block;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+  
+}
+div.columna article:last-child{
+ border-bottom: thin dotted grey;
+}
+
+div.columna article div.fecha_y_seleccion a{
+	display:none;
+
+}
+
+div.columna>article>div.titulo>p{
+  font-weight: normal;
+  text-align: justify;
+}
+div.columna>article>p{
+  font-weight: normal;
+  text-align: justify;
+}
+
+div.columna article div.lugar{
+border-bottom: thin black solid;
+text-align: right;
+}
+
+div.columna article div.lugar span{
+background-color: gray;
+color:white;
+}
+
+div.fecha_y_seccion time{
+background-color: gray;
+color:white;
+float:left;
+}
+span.correo a{
+  color: black;
+  text-orientation: none;
+}
+
+
+
+

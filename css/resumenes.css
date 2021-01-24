@@ -1,0 +1,102 @@
+/* Fichero de Javier Giménez Campos   */
+
+div.resumenes {
+  /*float: left;*/
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.fila article{
+  
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 15px;
+  margin-bottom: 50 px;
+  padding-bottom: 10 px;
+  /*margin-left: 20px;
+  margin-right: 10 px;*/
+}
+
+body div.resumenes>div.fila>article.dos_tercios{
+	margin-left: 20px;
+	margin-right: 10px;
+  	width:calc((100% - 80px)*(2/3));
+}
+
+body div.resumenes>div.fila>article.un_tercio{
+	margin-left: 20px;
+	margin-right: 10px;
+  	
+	width:calc((100% - 80px)*(1/3));
+}
+
+img.foto{
+	width:100%;
+}
+
+
+div.resumenes article div.lugar{
+border-bottom: thin black solid;
+text-align: right;
+}
+
+div.resumenes article div.lugar span{
+background-color: gray;
+color:white;
+}
+
+div.fecha_y_seccion time{
+background-color: gray;
+color:white;
+float:left;
+}
+
+div.fecha_y_seccion a{
+text-align: right;
+background-color: DeepPink;
+color:white;
+text-decoration: none;
+float:right;
+}
+
+
+
+/*.fecha_y_seccion a{
+
+text-align: right;
+}*/
+
+
+div.Titulo{
+font-size: 125%;
+font-weight: bold;
+}
+
+div.resumenes p{
+
+font-weight: bold;
+}
+
+.autor {
+font-style:italic;
+text-align: right;
+}
+
+span.correo a{
+  color: black;
+  text-orientation: none;
+}
+
+.valoracion {
+text-align: right;
+}
+
+div.resumenes p~p:not(last-child){
+border-bottom: thin dotted;
+border-bottom-color: gray;
+
+}
+body>footer{
+margin-left: 50px;
+margin-right: 50px;
+clear:both;
+}
